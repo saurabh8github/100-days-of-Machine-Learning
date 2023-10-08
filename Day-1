@@ -1,0 +1,26 @@
+                                                            100 Days of Machine Learning #Day-1
+
+
+What is Machine Learning ?
+
+Ans. "ML is Field of computer science that uses statistical techniques to give computer systems the ability to "learn" with data, without being explicitly programmed."
+
+*Explicit program: writing code for each senerio*
+
+=> ML is all about learning from the data 
+
+=> in ML we have data and algo we tell the algo to draw pattern between i/o as we get the pattern we give it new data(test data) and the algo gives the output.
+
+use case:
+---------
+Data Mining some information are very hidden that are not visible after ploting some graphs or all these stuffs for example like we can't say any email spam just by seeing it 
+so in data mining after performing machine learning the information which we get from data that is data mining.
+
+History:
+---------
+All the algorithms are prior developed by researchers but the problem is with the Data and the Hardware after in olden time kagling the 
+data and labling it is quite detious 
+
+second problem was the hardware if we were able to get the data the next chalange is to proces the data. the hardware are not so evolve at that time 
+
+after 2010 these both problem were solved cause we are now generating more and more data in a secand internet help in this alot 
