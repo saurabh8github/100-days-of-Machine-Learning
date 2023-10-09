@@ -1,0 +1,42 @@
+                                                                        100 Days of Machine Learning #Day-2
+
+Date: 09-10-23
+
+=> AI vs ML vs DL
+-----------------------------
+what is AI?
+
+AI stands for Artificial intelegence (it is a very complex thisng and made up of multiple things there is like pattern recognition IQ it include creativity, imagination, EQ, solving puzzels etc. so our intelegence is very complex)
+the AI is actually a subset of our intelegence.
+
+=> mostaly ai stuff goes with pattern recognition
+
+=> in around 1950  we started thinking that in a machine we can fill intelegence some scientist like Allen turing  has stated working on it.
+=> At that time a new wave has been accured called  Symbolic AI 
+=> In Symbolic AI we create a knowledge system using if else condition we write logic for each condition 
+=> by these Symbolic AI we started creating Expert Systems like the game chess in which a chess experts all knowledge will be used to create a code and then against that code we play chess 
+-------------------------------------------------------------------------------------------------------------------
+
+Expert System:
+  in Expert System there is a knowledge base and inference engine (a program ) that perform decision making
+  in 80's we thought that Expert System's are the future of AI but there are some flaws in this system
+-------------------------------------------------------------------------------------------------------------------
+flaws of Expert System:
+  they work on some specific problems like lung cancer deection 
+  fuzzy logi problem are very very difficult to solve like image clasification, voice recognition
+--------------------------------------------------------------------------------------------------------------------
+
+
+now lets talk about Machine Learning 
+
+In expert system we deside the rule by our own but in the machine learning we simpe show the data to the machine and the machine generate the rule by itself.
+just like a kid learn about things by seeing them.
+--------------------------------------------------------------------------------------------------------------------
+
+
+why we need Deep learning if Machine Learning was able to do things easily ?
+
+a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain.
+neural network with three or more layers.
+
+it generates the feature by itself but in machine learning we need to specify the feature.
