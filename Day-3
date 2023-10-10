@@ -1,0 +1,90 @@
+                                                              100 Days of Machine learning #day-3
+
+
+types of Machine learning depends on different things we are going to focus on that is amount of supervision needed to get trained 
+
+types:
+
+=>Supervised 
+    ->Classification
+    ->Regration
+
+=>Unsupervised
+    ->Clustering
+    ->Dimensnality Reduction
+    ->Anamoly Detection
+    ->Assosication
+=>Semisupervised
+
+=>reinforcement
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                             | SUPERVISED MACHINE LEARINING |
+lets discus Supervised Machine Learning
+
+so as we know that ml is learining from the data and if we have input as well output and your work is to find the relationship between them  so that you can predict the output for the new input this is called supervised Machine learning.
+
+Supervised ml has two types Regration and classification
+
+befor understanding the classification and regration lets iscus what are the typs of Data
+  *Data has two types  first is numerical like age, wieght, cgpa, iq etc.
+  *and categorical like gender, nation etc
+
+now lets know, what is Regresion?
+ so in supervised learining if the output columns data is numerical then it is called Regresion.
+  for example i have the data called  
+
+    iq | cgpa | package
+    89 | 7.8  | 800000
+    99 |  7.9 | 900000
+  this is the regresion 
+
+and same for Classification if the output of the data if categorical then it is called classification for example
+    iq | cgpa | placement_status
+    79 | 8.0  | Y
+    67 | 7.9  | N
+
+here iq and cgpa are the input
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                      | UNSUPERVISED MACHINE LEARNING |
+In Unsupervised Machine learning we have only the Inputs
+ example:
+            iq | cgpa 
+            79 | 8.0  
+            67 | 7.9  
+you can see that we have just input so the task prediction cant be done cause i dont what to do
+so we do 
+    ->Clustering
+    ->Dimensnality Reduction
+    ->Anamoly Detection
+    ->Assosication
+
+Clusterning:
+if we see carefully we can plot a graph between iq and cgpa now clustering is what it do is it divides  who are the student that comes under same group in that manner i can divide them in categories like stundent whoes iq is low and cgpa 
+is high, student whos cgpa is high iq is low after this now i can give them lables 
+clusterning algorithm can devide high dimentional data to as cluster we can also create heirerical clusters 
+
+Dimensnality Reuction:
+some times we can have thousands of inout columns this cause slow speed of algo and at after some point if we add new column then there is no improvement so some column are  not needed 
+dimentionality reduction what it do is it combines the releted columns and make it single column 
+this is also called feature extraction here is a term pca (principle component analisys)
+
+Anamoly Detection:
+It is nothing but deteceting the outlieer and deleting them from the dataset for example price of the share rise sudnly 
+
+Assosiation rule based learning:
+for example there are alot of product in mart how they deside which product should placed in which place here we use assosiasion in this we generate the all bills and then finde the relation or notice the pattern 
+just like in research assosiation of bigg bazar they found that when a persone was buying the diper then there is probability that he/shw will buy beer also there is  a correlation between them
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                  |SEMISUPERVISED LEARNING |
+Now lets learn about Semisupervised learning.It is partialy  unsupervised and partialy supervised
+so the lables(output columns) are costly what does it mean creating an lable takes human efforts creating lable is difficult so people thing that what if they lable one or two thing and rest of the things will automaticaly labled this is
+the idea behind semisupervised learning
+example 
+        in google photos aersons photo are classified 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                    | REINFORCEMENT |
+
+we wont provide any kind of data to the data our algorithm start learning from the scratch just like a humen for example self driving cars
+there is an agent and in his every movement we give him reword or punishment and the end goal of the agent is to improve the rewords and reducing the punishments it's like training the dog 
