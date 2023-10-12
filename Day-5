@@ -1,0 +1,42 @@
+                                                        100 Days of Machine learning #day-5
+                                                          
+
+type of ml on hte basis of production 
+
+Online Learning 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+->in online learning training is done in incremently we feed data to model in batches this is called mini batches these are the small chunks of data 
+
+->it means that our model train at time which the product is online or it is in the server
+
+data-> model-> test->server<-new data 
+
+now our model is doing two things at a time learning and predicting it is dynamic for example chatbots are the best example another example is youtube feed google adds and so on.....
+not so costly
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+when to use ?
+  1)concept drift       if the nature of problem is changing continuosly like ecom website's
+  2)cost effeccive
+  3)faster solution     this is fast cause training is in batches 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+how to use?
+  in sklearn alo there is sgdregressor() there is fit methos as well partial_fit() for online training 
+                                                          or 
+  we can use online libraries like River that is combination of creme and scikit-multiflow
+
+  there is one more library that is vowpal wabbit library 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Learnig rate 
+learning rate is important thing that this should not be happen that you alway learn new thing and your new model forget older data thing 
+correct learning set is tricky thing
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Out of Core learning
+in this our data set is that much big that we can't train model buy using batch learning  it's pretty much similar like virtual memory 
+for example our data set os of 50gb and our ram is of 8gb so we cant train all the data at ones so we divide the data in batches then give it to the model to train in server 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Disadvantage:
+  1) it is very Tricky
+  2) Risky 
+                                                          
