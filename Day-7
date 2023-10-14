@@ -1,0 +1,61 @@
+                                                            100 Days of Machine learning challenge #day-7
+
+
+
+Challenges in Machine learning
+
+1)	Data Collection
+
+    When you’re working  in small project in college level you will be easily getting data from kaggle or from any other source but when you are working with industrial
+    real world project in companies than you need to gather data by
+    		Web scrapping 
+    		API
+
+2)	Insufficient data / labeled data
+      Let’s say you have 2 algorithm in algorithm  A you have 100 rows and in algorithm  B have 10 lack solving same problem which one is better Bs model will perform better 
+      If data is sufficient but does it is labeled or not?
+
+3)	Non representative data
+      If the data is incomplete and we are using it then the prediction will not work or representation of data is not good  
+
+      When you are gathering data if you gather data only from one specific space then the proper representation of the data will not there this is called sampling noise 
+      
+      For example we are asking people that who is going to win world cup 2023 you are only asking to the Indian people off course there will be some biasness in data.
+      
+      Sampling bias is when you work with larger data but still you are showing some biasness towards data.
+      
+      For example you should ask 100 people of other country and 100 people from India that who is going to win and still you are not doing this.
+
+4)	Poor Quality Data
+      It could be allot of things there is outlier, different formatted values etc.  Almost 60% time passed in getting increase the data quality.
+
+5)	Irrelevant feature
+      Feature means columns  there are some column which does not need to be in the dataset 
+      “Garbage in garbage out “
+      For example 
+      Age 	Wight	 Height	Location 
+      			
+
+      Here the location column is not making any sense to be there 
+      
+      Sometime what we do is we combine two features like BMI (Body mass index ) this is feature engineering 
+      
+6)	Over fitting
+      Memorizing the data as it is not learning from data 
+
+7)	Under fitting 
+      If your model is giving 100% accuracy than there is an chance of over fitting   
+
+8)	Software integration
+      It is not that much easier to integrate 
+
+9)	Offline Learning/ Deployment
+      Batch learning we have learned already deployment is not so stable still azure and some other platform provide features.
+
+10)	 Cost Involved 
+      Not everything is optimized in this field mlops just like devops  it is a new growing field 
+ 
+
+
+
+
