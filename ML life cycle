@@ -1,0 +1,21 @@
+                                                                100 days of machine learning #day-9
+
+In software engineering there is sdlc how the software is developed is mentioned here in Ml there is MLDLC that is important to create end to end project 
+there is 9 to 10 steps 
+1) Frame the problem :
+  Deside the ps you are working for the company which kind of alo you use is it supervised or unsupervised
+2) Gathering the data:
+  data can be gathered by api or by webscraping the data is in the form of csv we create data wherehouse 
+3) Data preprocessing:
+  removing mising value , scale the values, this is standerdization remove empty
+4) Exploratory Data Analysis:
+  finding the relationship by vizualization we do multivarieat analysis we balance the imbalanced dataset
+5) Feature engineering and output:
+  we create new feature by selecting two features unwanted feature can be reduced input column ko change krna
+6) Model Training evaluation and selection:
+   we use performance matrix in the basis of which we find which model is better
+   classification have accuracy in regresion have mean square etc.
+   ensemble learning is there
+7) Model Deployment :
+8) Testing: 
+9) Optimize:
