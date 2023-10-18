@@ -1,0 +1,52 @@
+                                                                          100 Days of Machine Learning #day-10
+Data engineer vs Data Analyst vs Data Scientist vs ML engineer
+
+*Anglelist is a job searching engine
+
+works of different job profiles:
+
+1) Data Engineer:
+    Scrape Data from the given sources.
+    move/store data in optimal server/warehouses.
+    building api or pipline for easier access.
+    Handel database
+
+in bigg companies there is a consept of OLTP and OLAP (online transection procesing) it is basicaly the database of a website so the team of web analyst in any company does not do analysis in running data 
+so they creating something called OLAP (online analytics processing) so the data angineer creats a OLAP it is like data warehouse
+
+skills needed:
+    DSA
+    programming language (java pythone scala R etc.)
+    Big data tools like (apache spark, hadoop, apache kafka, hive )
+    cloud platform like aws, google cloud 
+    distributed systems
+    Data pipline 
+
+2) Data Analyst:
+    responsibilities are :
+        -cleaning and org raw data
+        -Analyzing data derive insights
+        -creating data vizualization 
+        -colab with team
+  skills required
+          -statistcal programming 
+          -language (R sas python)
+          -creative and analytical thinking
+          -Data Mining cleaning
+          -dv
+          -sql
+          -advance mycrosoft excel
+
+3) Data Scientist :
+    "A data scientist is someone who is better at statistics than any software engineer and better at software engineering than any statistician".
+4) ML engineer 
+    responsibilities :
+        Deploying ml model to production ready environment
+        Scaling and optimizing the model for production
+        monitoring and maintenance of deployed models
+skills :
+        mathematics
+        programing language 
+        distribution system
+        data model evaluation software engineer and system design 
+        ml model 
