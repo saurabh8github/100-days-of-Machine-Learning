@@ -1,0 +1,61 @@
+                                                                              100 Days of Machine Learning #day-11
+*Tensor :
+  It is a Datastructure way of storing data every leaading librares scikit learn are dealing with tensors. number library of google is tensorflow 
+  it is a like container for numbers we have already used it gues what vecter matrix etc. are tensor when it is of 0 dimensition then it is scaler list of number is vectors when it is in 2d then it is matrix 
+  if the numbere is in 3d or 4d then it is called tensors.
+
+*0D Tensors:
+      scaller they have no dimentions like 1 
+**Note: Tensors and the n'D array are the same things #
+
+*1D Tensor/ Vector:
+      [1,2,3,4,5 ] #1D array ndim=1
+
+Axis: number of dimentions if our tensor has 2 dimention that means it has 2 axis number of axis are called rank 
+
+  ->[1,2] this is an 1d tensor and vector also but the dimention of the vector is 2
+  ->if we add scaller into scaller then the vector is created
+  ->vector is collection of scallars 
+  ->matrix is a collection of vecors
+
+*2D Tesors:
+    [1,2,3] [4,5,6] [7,8,9] these are vecors and if we combine them then it is matrix
+
+Rank, Axis, Shape 
+    ->no of axis = Rank = no of dimentions
+    ->shape is like  (3X3)
+    ->size is like how many items are there in the matrix
+
+
+example of 1d tensor:
+
+students(1000)
+cgpa | iq | state | placement
+8.5  | 90 | cg    | 1  -> this is my 1D tensor having only 1 axis but it is 3d vector  cause it hase 3 axis cgpa, iq, state
+
+so in above example every students data is a vector and the collection of these vector creats matrix
+it is generaly denoted by D in ml
+
+#3d Tensors
+  example : in nlp 
+      hi nitish
+      hi rahul
+      hi jitesh
+
+hi | nitish | rahul | jitesh
+1  |    0   |    0  |  0
+0  |    1   |   0   |  0
+0  |    0   |    1  |  0
+0  |    0   |    0  |  1
+
+[[[1,0,0,0], [0,1,0,0]]
+[[1,0,0,0], [0,0,0,1]]
+[[1,0,0,0], [0,0,0,1]]]
+
+this is 3d tensor  with (3,2,4) 
+one more example of 3d tensor is time sereis based data it is a collection of 10 - 2d tensors 
+
+#4d tensors:
+      images are the example of 4d tensor  batches of image 
+#5d tensors:
+      videos are the example of 5d tensors collection of frames 
