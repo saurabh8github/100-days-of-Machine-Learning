@@ -2,9 +2,49 @@
 
 
 
-To create an new virtual environment in anaconda 
+To create an new virtual environment in anaconda go to anaconda prompt and type the following command:
 
+  -> conda create --name your_environment_name_here 
 
+then press enter type Y and press enter
 
+to activate the environment follow the command:
+
+ -> conda activate your_environment_name
+
+now you can see the environment in the anaconda avigator inside this you will find nothing cause we have to install everything we want in particular project 
+
+to install jupyter on the environment you can use the following command:
+
+  ->conda install -c anaconda jupyter
+
+to open the jupyter note book you can run the command:
+
+  ->jupyter notebook 
+
+to install pakages in this project you can go on the command prompt and closs the jupyeter by ctr+c and enter
+then use command 
+  -> conda install package_name
+
+or you can simply  go on jupyter notebook and type
+
+  ->!pip install package_name
+
+to get out from the environment you can use:
+  ->deactivate
+to remove the environment use command:
+  ->conda remove --name name_of_environment --all
+
+instead of doing this you can also use kaggel for wide data as well to run projects 
+we can also use google colab these are nothing but same as jupyter 
+to download the data in google colab you can use
+
+create an api of kaggle by your profile it will give json file upload it in google colab then run the following
+
+!mkdir -p ~/kaggle
+!cp kagle.json ~/.kaggle/
+
+after this just copy the api path of data set you want to import download
+!data_set_api_path
 
 
