@@ -1,1 +1,15 @@
-hello
+                                                                        100 days of Machine Learning #day-13
+
+
+today we are going to learn the following things
+          #we are going to perform
+          #steps:
+          #0. Preprocess + EDA + Feature Selection
+          #1. extract input adn output cols
+          #2. Scale and values
+          #3. Train test split
+          #4. Train the model
+          #5. evaluate the model / model selection
+          #6. deploy the model
+this things are all in google colab file carefull run that project on your pc or laptop
+with that i am uploading the dataset also named as placement.csv
