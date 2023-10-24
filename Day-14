@@ -1,0 +1,36 @@
+                                                    100 Days of Machine Learing #day-14
+
+
+Framing a Machine learning Model 
+    planning the problem end to end or converting a buisiness problem into ML problem
+
+1) Business Problem to ML Problem
+  let's say there is meeting of netflix you are a data scientist head they asked you how can we increase the revenue of netflix solution:
+      ->bring new customer through marketing 
+      -> charge more to existing customer
+      -> existing customer who are living engage them more 
+
+Churn Rate how many customers are living the platform  decreasing the churn rate will be greate
+if churn rate is high then it can be effect the company growth netflix have 4% of churn rate  
+this is my first step convert the problem in math form
+
+2) Type of problem
+  we have to see the big picture it can be many thing what is my end roduct we dont have to predict churn rate we have to decrease it so 
+  first we have to identify the customer who are going to leave the platform 
+  let's say i have identified the person now how to hold him on the plateform 
+      givfe him discount , identify the problem of the user, 
+
+this is look like supervised and classification problem right no this is regretion pronblem why we havve to know the how many user are planning to leave and how much % chances are there that they were leaving 
+according to that we will give them discount abviously giving same persent of discount make compny a bigg loss.
+
+3)Current solution
+  there are alreade wroking solution we can get help from there
+4)Getting Data
+  watch time, search but did not find, content left in the middle, clicked on recommendation etc 
+5) Matrix to measure
+     need to define the matrix that the things we are doing is right or wrong the prediction are true or not 
+6) online or batch? 
+7) check your assumptions
+    the factor which we looking are available or not  netflix is multilenious plateform may be other countries people thinking of entertainment would be different 
+
+  
