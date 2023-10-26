@@ -9,3 +9,5 @@ working with sql file
                                                                             #working with csv file 
 csv:- couma seprated values
 tsv:- tab seprated values
+
+see the python file for more information : working_with_csv
