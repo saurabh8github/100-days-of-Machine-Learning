@@ -12,3 +12,5 @@ to do so install xampp server on your system and start the appache and mysql ope
 go through this:-
 https://pandas.pydata.org/docs/reference/api/pandas.read_json.html
 https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html#pandas.read_sql_query
+refer:-
+working_with_json.py
