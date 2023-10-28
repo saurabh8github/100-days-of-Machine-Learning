@@ -1,3 +1,14 @@
                                                                     100 Days of machine learning #day-16
 
                                                                       
+JSON: java script on noation it is a universal formate
+
+we use them when a server have an api and request forthe data then the data provided by the api  are in json formate and every language can understand  json
+
+SQL : structured query language
+to work with the sql we have to install an library so that we can read the sql formated data
+to do so install xampp server on your system and start the appache and mysql open your brouser type localhost
+
+go through this:-
+https://pandas.pydata.org/docs/reference/api/pandas.read_json.html
+https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html#pandas.read_sql_query
